@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# JetBrains IDEs (IntelliJ / WebStorm)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Editor swap/backup files
+*.swp
+*.swo
+*~
+
+# Node (in case tooling is added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+
+# Test coverage / build output
+coverage/
+.nyc_output/
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
